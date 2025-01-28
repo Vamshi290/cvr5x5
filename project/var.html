@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("var properties");
+        var x = 5;
+        x=6;
+        console.log(x);
+        {
+           var x = 10;
+            console.log("x inside block",x);
+            x=20;
+        }
+        console.log(x);
+        console.log("let properties");
+        let v = 5;
+         v=6;
+        console.log(v,"let allows to reassign ");
+        {
+            let v = 10;
+            console.log("v inside block",v);
+            v=20;
+        }
+        console.log(v);
+        const n=20;
+       //   n=90;
+        console.log(n);
+    </script>
+</body>
+</html>
